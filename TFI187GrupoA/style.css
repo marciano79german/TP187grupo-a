@@ -1,8 +1,25 @@
-body {background-image:url(./images/SL_060521_43530_09.jpg);
+body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
 }
 * {color: rgb(255,255,255);
 }
 
+nav {display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around;}
+
+header nav ul {
+    list-style: none;
+    display: flex; flex-direction: row;
+
+}
 
 
 
+footer {display: flex;
+        flex-direction: row;
+        }
+footer nav ul {
+    list-style: none;
+    display: flex; flex-direction: row;
+}
