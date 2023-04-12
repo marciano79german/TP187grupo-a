@@ -3,6 +3,12 @@ body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
 * {color: rgb(255,255,255);
 }
 
+nav#inicio img{
+
+    width: 105px;
+    height: 120px;
+}
+
 header nav h1 {
    font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-size: 185px;
@@ -29,8 +35,10 @@ img {
     border-radius: 8px;
   }
 
-  div img:hover {
+   div img:hover {
     transform: scaleX(-1);
+    object-fit: cover;
+    
   }
 
 h3 {
