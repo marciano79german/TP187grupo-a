@@ -79,7 +79,7 @@ nav#home img{
 
 
 
-footer ul {
+footer ul a {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -87,7 +87,6 @@ footer ul {
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
-    background-color: rgb(49, 48, 54);
-     background-size: 100px;
+    
    
 }
