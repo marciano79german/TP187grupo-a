@@ -16,10 +16,27 @@ header nav ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {display: flex;
         flex-direction: row;
         }
-footer nav ul {
+footer div ul {
     list-style: none;
     display: flex; flex-direction: row;
 }
