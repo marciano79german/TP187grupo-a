@@ -37,12 +37,16 @@ img {
   }
 
    div#productos img:hover {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
     transform: scaleX(-1);
     object-fit: cover;
     
   }
 
 h3 {
+    width: 50%;
     list-style: none;
     display: flex; 
    
