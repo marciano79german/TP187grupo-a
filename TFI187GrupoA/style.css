@@ -3,15 +3,40 @@ body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
 * {color: rgb(255,255,255);
 }
 
-nav {display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-around;}
+header nav h1 {
+   font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 185px;
+}
 
 header nav ul {
-    list-style: none;
-    display: flex; flex-direction: row;
 
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+   background-color: rgb(49, 48, 54);
+   background-size: 100px;
+   box-shadow:
+
+}
+header nav ul a {
+    text-decoration: none;
+
+}
+
+img {
+    border-radius: 8px;
+  }
+
+  div img:hover {
+    transform: scaleX(-1);
+  }
+
+h3 {
+    list-style: none;
+    display: flex; 
+   
 }
 
 
@@ -26,17 +51,12 @@ header nav ul {
 
 
 
-
-
-
-
-
-
-
-footer {display: flex;
+footer ul {display: flex;
         flex-direction: row;
         }
-footer div ul {
+footer ul {
     list-style: none;
     display: flex; flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
