@@ -1,6 +1,9 @@
 body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
+
 }
 * {color: rgb(255,255,255);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -25,6 +28,7 @@ header nav ul {
    background-color: rgb(49, 48, 54);
    background-size: 100px;
    box-shadow:
+   border
 
 }
 header nav ul a {
@@ -46,10 +50,12 @@ img {
   }
 
 h3 {
-    width: 50%;
+    width: 100%;
     list-style: none;
-    display: flex; 
-   
+    display: flex;
+    display: inline; 
+   font-display:initial
+   margin: 
 }
 
 div#quienes img{ 
