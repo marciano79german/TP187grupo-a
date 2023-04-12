@@ -7,7 +7,6 @@ body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
 
 
 nav#inicio img{
-
     width: 130px;
     height: 120px;
 }
@@ -18,7 +17,6 @@ header nav h1 {
 }
 
 header nav ul {
-
     list-style: none;
     display: flex; 
     flex-direction: row;
@@ -39,13 +37,12 @@ img {
     border-radius: 8px;
   }
 
-   div#productos img:hover {
+div#productos img:hover {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
     transform: scaleX(-1);
-    
-  }
+}
 
 h3 {
     width: 100%;
