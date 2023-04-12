@@ -1,3 +1,4 @@
+
 body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
 
 }
@@ -43,7 +44,6 @@ img {
     flex-direction: row;
     justify-content: space-around;
     transform: scaleX(-1);
-    object-fit: cover;
     
   }
 
@@ -52,8 +52,7 @@ h3 {
     list-style: none;
     display: flex;
     display: inline; 
-   font-display:initial
-   margin: 
+   font-display:initial 
 }
 
 div#quienes img{ 
@@ -79,14 +78,19 @@ nav#home img{
 
 
 
-footer ul a {
-    display: flex;
+
+
+footer ul {display: flex;
     flex-direction: row;
+    }
+
+footer ul {
     list-style: none;
-    display: flex; 
-    flex-direction: row;
+    display: flex; flex-direction: row;
     justify-content: space-around;
-    font-size: 20px;
-    
-   
+    align-items: center;
+}
+footer ul li {
+
+    text-decoration: none;
 }
