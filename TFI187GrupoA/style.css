@@ -1,93 +1,47 @@
 
-body {background-image:url(./images/futuristic-mechanical-gears-background.jpg);
+body {
+    background-image:url(./images/futuristic-mechanical-gears-background.jpg); 
+      }
 
+*
+ {color: rgb(255,255,255);
+  font-family:
 }
-* {color: rgb(255,255,255);
+header nav img {
+    border: none
+    border-radius: 0px;
+    padding: 0px;
+    width: 110px;   
 }
-
-
-nav#inicio img{
-    width: 130px;
-    height: 120px;
+header div img {
+    display:flex ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    justify-items: auto;
+    border: none;
 }
-header
-
-header nav h1 {
-   font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-size: 185px;
+header nav {
+    display:flow-root; 
+    flex-direction:row;
+    justify-content: center;
 }
-
 header nav ul {
     list-style: none;
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    font-size: 20px;
-   background-color: rgb(49, 48, 54);
-   background-size: 100px;
-   box-shadow:
-   border
-
+    font-size: 35px;
 }
-header nav ul a {
-    text-decoration: none;
-
-}
-
-img {
-    border-radius: 8px;
-  }
-
-div#productos img:hover {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
+section#productos div img:hover{
     transform: scaleX(-1);
 }
-
-h3 {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    display: inline; 
-
+section#productos div img{
+    border-radius: 25px;
 }
-
-div#quienes img{ 
-    width: 170px;
-    height: 200px;
-
-}
-
-/*segunda pagina*/
-nav#home img{
-
-    width: 130px;
-    height: 130px;
-
-    header nav#home h1 {
-        font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-         font-size: 185px;
-     }
-
-
-/*segunda pagina*/
-
-
-
-
-
-
-footer ul {display: flex;
-    flex-direction: row;
-    }
-
-footer ul {
-    list-style: none;
-    display: flex; flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-footer ul li {
-    text-decoration: none;
+section#productos div img .bateas{
+    border: none
+    border-radius: 0px;
+    padding: 0px;
+    width: 110px;
 }
