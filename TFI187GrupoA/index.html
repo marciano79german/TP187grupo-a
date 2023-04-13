@@ -10,20 +10,18 @@
 <body>
     <header>
         <nav id="inicio">
-            <img src="./images/acoplanoaIco.jpg" alt="Ícono redondo con A grande."/>
+            <img id="icono" src="./images/acoplanoaIco.jpg" alt="Ícono redondo con A grande."/>
             <h1>ACOPLANOA</h1>
-            <ul>
+            <ul id="ulNav">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="./qsomos.html">¿Quiénes somos?</a></li>
                 <li><a href="#productos">Productos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <div>
-            <img src="./images/logoAcoplanoa02.jpg" alt="Logo y nombre de la empresa en color blanco sobre una ventana con gotas y luces de fondo."/>
-        </div>
     </header>
-    <section>
+    <!--Sección de título y slice JavaScript-->
+    <section id="tituloProductos">
         <h1>ACOPLANOA</h1>
         <h3>Fábrica de Chasis y Acoplados</h3>
         <div id="chasis y acoplados">
@@ -32,39 +30,45 @@
             <img src="./images/camion02.jpg" alt="Imágen de camión con acoplado de volquete levantado con fondo blanco."/>
          </div>    
     </section>
+    <!--Sección de productos-->
     <section id="productos">
         <h2>Productos</h2>
-        <div>
+        <!--Línea 1 de productos-->
+        <div id="divProductosImg">
             <img src="./images/carrocerias.jpg" alt="imágen de dos camiones blancos con chasis solo blanco."/>
             <img src="./images/acoplados.jpg" alt="imágen de acoplado blanco con amarillo nuevo."/>
         </div>
-        <div>
+        <div id="divProductosTitulo">
             <h3>Carrocerías</h3>
             <h3>Acoplados</h3>
         </div>
-        <div>
+        <!--Línea 2 de productos-->
+        <div id="divProductosImg">
             <img src="./images/bateas.jpg" alt="imágen de batea blanco con rojo nuevo."/>
             <img src="./images/carretones.jpg" alt="imágen de carreton negro nuevo."/>
         </div>
-        <div>
+        <div id="divProductosTitulo">
             <h3>Batéas</h3>
             <h3>Carretones</h3>
         </div>
-        <div>
+        <!--Línea 3 de productos-->
+        <div id="divProductosImg">
             <img src="./images/semirremolques.jpg" alt="imágen de semirremolque nuevo."/>
             <img src="./images/portaVolquetes.jpg" alt="imágen camión blanco con porta volquete nuevo."/>
         </div>
-        <div>
+        <div id="divProductosTitulo">
             <h3>Semirremolques Baranda Volcable</h3>
             <h3>Equipos Porta Volquetes</h3>
         </div>
     </section>
     <footer>
-            <div id="contacto">
+            <!--Sección de contacto-->
+            <section id="contacto">
                 <P>Ruta Provincial 306 Km 2,5 - Banda del Río Salí - Tucumán - Argentina</P>
                 <p>Teléfonos: 0381-4555555/46666666</p>
                 <p>E-mail: acoplanoa@gmail.com</p>
-             </div>
+            </section>
+            <!--Navegador del pie-->
              <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a>Cotizaciones</a></li>
