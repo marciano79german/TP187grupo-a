@@ -10,6 +10,7 @@ nav#inicio img{
     width: 130px;
     height: 120px;
 }
+header
 
 header nav h1 {
    font-family: :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -49,7 +50,7 @@ h3 {
     list-style: none;
     display: flex;
     display: inline; 
-   font-display:initial 
+
 }
 
 div#quienes img{ 
@@ -88,6 +89,5 @@ footer ul {
     align-items: center;
 }
 footer ul li {
-
     text-decoration: none;
 }
