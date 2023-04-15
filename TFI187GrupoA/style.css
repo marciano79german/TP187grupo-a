@@ -24,6 +24,7 @@ header{
     display: flex;
     align-items: start;
     color: white;
+    box-shadow: 0px 0px 30px yellow;
 }
 
 /*Margen superior y tamaño del título del header*/
@@ -99,6 +100,7 @@ section#productos div img{
     width: 500px;
     height: 300px;
     margin-right: 1em;
+    box-shadow: 0px 0px 10px yellow;
 }
 
 /*Posición de imágenes de productos*/
@@ -119,6 +121,7 @@ section#productos div img{
 footer{
     display:flex;
     border: 2px solid grey;
+    box-shadow: 0px 0px 20px yellow;
 }
 
 /*Margen, color y tamaño de fuente de la dirección en el pie*/
