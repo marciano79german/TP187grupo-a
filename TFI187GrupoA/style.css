@@ -142,3 +142,13 @@ footer ul{
 footer ul li{
     list-style: none;
 }
+/* Quienes Somos*/
+
+div#quienes img {
+    width: 280px;
+    height: 300px;
+}
+div#datos {
+font-size: medium;
+color: white
+}
