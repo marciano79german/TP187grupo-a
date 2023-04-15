@@ -145,10 +145,10 @@ footer ul li{
 /* Quienes Somos*/
 
 div#quienes img {
-   border-radius: 150px;
+    border-radius: 150px;
     width: 280px;
     height: 320px;
-    
+    margin-left: 100px;
 }
 div#datos {
 font-size: medium;
