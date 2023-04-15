@@ -145,13 +145,28 @@ footer ul li{
 /* Quienes Somos*/
 
 div#quienes img {
+   border-radius: 150px;
     width: 280px;
-    height: 300px;
+    height: 320px;
+    
 }
 div#datos {
 font-size: medium;
 color: white
 }
+section#quienes h1{
+    color: white;
+}
+section#quienes p {
+    color: white;
+
+}
 div#contacto {
     color:white
+}
+div#datos{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-size: 20px;
 }
