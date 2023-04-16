@@ -1,8 +1,7 @@
 /*Imagen de fondo del body*/
 body {
-    
-    background-image:url(./images/futuristic-mechanical-gears-background.jpg); 
-      }
+    background-image:url(./images/34587-metalicos.jpg); 
+}
 
 /*Links de los ítems de la lista*/
  ul li a{
@@ -155,12 +154,18 @@ div#quienes img {
     border-radius: 150px;
     width: 280px;
     height: 300px;
-    margin-left: 100px;
     margin-top: 50px;
 }
+div#quienes {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   align-items: center;
+}
 div#datos {
-font-size: medium;
-color: white
+    margin-left: 85px;
+    font-size: 25px;
+    color: white
 }
 section#quienes h1{
     color: white;
@@ -178,7 +183,7 @@ div#contacto {
 }
 div#datos{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    color:white;
-    font-size: 20px;
+    align-items: center;
 }
