@@ -1,0 +1,196 @@
+/*Imagen de fondo del body*/
+body {
+    background-image:url(./images/34587-metalicos.jpg); 
+}
+
+/*Links de los ítems de la lista*/
+ ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+/*Propiedades del header*/
+header{
+    height: 300px;
+    background-image:url(./images/logoAcoplanoa02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    width: 100%;
+    display: flex;
+    border: 2px solid grey;
+    align-items: start;
+    color: white;
+    box-shadow: 0px 0px 30px yellow;
+}
+
+/*Margen superior y tamaño del título del header*/
+header h1{
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+/*Tamaño, márgener y estilo del borde del ícono*/
+#icono{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*Alineación y tamaño de la fuente de la lista nav*/
+nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+h2{
+color: white;
+}
+/*Alineación, márgenes, color de fuente y espacio entre elementos de la lista desordenada*/
+nav ul{
+    margin-left: 500px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/*Puntito de los ítems de la lista desordenada del nav*/
+nav ul li{
+    list-style: none;
+}
+
+/*Título slice de los los productos*/
+section#tituloProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:yellow;
+    font-weight: bold;
+}
+
+/*Titulo h1 de los productos*/
+section#tituloProductos h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+/*Subtítulo h3 de los produtos*/
+section#tituloProductos h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/**Efecto inverso en imágenes de productos**/
+section#productos div img:hover{
+    transform: scaleX(-1);
+}
+
+/*Imagenes de productos*/
+section#productos div img{
+    border-radius: 25px;
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-right: 1em;
+    box-shadow: 0px 0px 10px yellow;
+    margin-top: 50px;
+}
+
+/*Posición de imágenes de productos*/
+#divProductosImg{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Posición, color del texto y tamaño de la fuente de de los títulos infereiores de los productos*/
+#divProductosTitulo{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-size: 20px;
+}
+
+/*Pié de página*/
+footer{
+    display:flex;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 20px yellow;
+    margin-top: 50px;
+}
+
+/*Margen, color y tamaño de fuente de la dirección en el pie*/
+footer section#contacto p{
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+/*Lista desordenada del footer*/
+footer ul{
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+/*Ítem de lista desordenada del footer*/
+footer ul li{
+    list-style: none;
+}
+/* Quienes Somos*/
+/*imagenes de caras*/
+
+div#quienes img {
+    border-radius: 150px;
+    width: 280px;
+    height: 300px;
+    margin-top: 50px;
+}
+/*nuestros datos*/
+div#quienes {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   align-items: center;
+}
+
+div#datos {
+    margin-left: 85px;
+    font-size: 25px;
+    color: white
+}
+/*Quienes somos*/
+section#quienes h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 35px;
+}
+/*grupo*/
+section#quienes p {
+    color: white;
+    font-size: 20px;
+}
+/* color de contactos del "quienes somos"*/
+div#contacto {
+    margin-left: 15px;
+    color:white
+    
+}
+/* ubicacion de los datos en la pagina*/
+div#datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
