@@ -178,12 +178,12 @@ section#quienes h1{
 section#quienes p {
     color: white;
     font-size: 20px;
-
-
 }
+/* color de contactos del "quienes somos"*/
 div#contacto {
     color:white
 }
+/* ubicacion de los datos en la pagina*/
 div#datos{
     display: flex;
     flex-direction: row;
