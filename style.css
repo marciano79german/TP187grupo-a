@@ -47,7 +47,10 @@ nav{
     flex-direction: row;
     font-size: 30px;
 }
-
+h2{
+    
+color: white;
+}
 /*Alineación, márgenes, color de fuente y espacio entre elementos de la lista desordenada*/
 nav ul{
     margin-left: 500px;
