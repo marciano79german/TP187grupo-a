@@ -1,6 +1,7 @@
 /*Imagen de fondo del body*/
 body {
     background-image:url(./images/34587-metalicos.jpg); 
+    
 }
 
 /*Links de los ítems de la lista*/
@@ -193,4 +194,9 @@ div#datos{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+/*formuliario de cotizaciones*/
+.formulario {
+   font-size: 100%;
 }
