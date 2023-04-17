@@ -1,21 +1,8 @@
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
-
 /*Imagen de fondo del body*/
 body {
     background-image:url(./images/34587-metalicos.jpg); 
 }
 
-body {
-    
-    font-family: 'Montserrat', sans-serif;
-}
-.form
-.form__imput{
-    font-family: inherit;
-}
-.form__cta{
-    font-family: inherit;
-}
 /*Links de los ítems de la lista*/
  ul li a{
     color:white;
@@ -61,7 +48,6 @@ nav{
     font-size: 30px;
 }
 h2{
-    
 color: white;
 }
 /*Alineación, márgenes, color de fuente y espacio entre elementos de la lista desordenada*/
@@ -72,7 +58,7 @@ nav ul{
     flex-direction: row;
     font-size: 17px;
     justify-content: space-between;
-    gap: 25px;
+    gap: 35px;
 }
 
 /*Puntito de los ítems de la lista desordenada del nav*/
@@ -83,18 +69,13 @@ nav ul li{
 /*Título slice de los los productos*/
 section#tituloProductos {
     display: flex;
-    justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     color:yellow;
-    font-weight: bold;    
+    font-weight: bold;
 }
-
-section#tituloproductos div {
-width: 30px;
-
-
-}
+/*Imagenes de los slice*/
+ 
 
 /*Titulo h1 de los productos*/
 section#tituloProductos h1{
@@ -214,4 +195,9 @@ div#datos{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+/*formuliario de cotizaciones*/
+.formulario {
+   font-size: 100%;
 }
