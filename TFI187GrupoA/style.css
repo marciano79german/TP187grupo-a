@@ -19,9 +19,7 @@ header{
     background-position: center, center;
     width: 100%;
     display: flex;
-    border: 5px;
     border: 2px solid grey;
-    display: flex;
     align-items: start;
     color: white;
     box-shadow: 0px 0px 30px yellow;
@@ -149,6 +147,7 @@ footer ul li{
     list-style: none;
 }
 /* Quienes Somos*/
+/*imagenes de caras*/
 
 div#quienes img {
     border-radius: 150px;
@@ -156,22 +155,26 @@ div#quienes img {
     height: 300px;
     margin-top: 50px;
 }
+/*nuestros datos*/
 div#quienes {
    display: flex;
    flex-direction: row;
    justify-content:space-around;
    align-items: center;
 }
+
 div#datos {
     margin-left: 85px;
     font-size: 25px;
     color: white
 }
+/*Quienes somos*/
 section#quienes h1{
     color: white;
     margin-top: 50px;
     font-size: 35px;
 }
+/*grupo*/
 section#quienes p {
     color: white;
     font-size: 20px;
