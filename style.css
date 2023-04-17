@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+
 /*Imagen de fondo del body*/
 body {
     background-image:url(./images/34587-metalicos.jpg); 
 }
+
 
 /*Links de los ítems de la lista*/
  ul li a{
