@@ -70,10 +70,17 @@ nav ul li{
 /*Título slice de los los productos*/
 section#tituloProductos {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction:column;
     align-items: center;
     color:yellow;
-    font-weight: bold;
+    font-weight: bold;    
+}
+
+section#tituloproductos div {
+width: 30px;
+
+
 }
 
 /*Titulo h1 de los productos*/
