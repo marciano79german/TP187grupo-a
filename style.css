@@ -8,12 +8,7 @@ body {
 body {
 familia tipográfica: 'Montserrat', sans-serif;
 }
-.form__imput{
-    font-family: inherit;
-}
-.form__cta{
-    font-family: inherit;
-}
+
 /*Links de los ítems de la lista*/
  ul li a{
     color:white;
