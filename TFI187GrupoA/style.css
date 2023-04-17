@@ -58,7 +58,7 @@ nav ul{
     flex-direction: row;
     font-size: 17px;
     justify-content: space-between;
-    gap: 25px;
+    gap: 35px;
 }
 
 /*Puntito de los ítems de la lista desordenada del nav*/
