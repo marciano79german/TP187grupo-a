@@ -5,17 +5,7 @@ body {
     background-image:url(./images/34587-metalicos.jpg); 
 }
 
-body {
-    
-    font-family: 'Montserrat', sans-serif;
-}
-.form
-.form__imput{
-    font-family: inherit;
-}
-.form__cta{
-    font-family: inherit;
-}
+
 /*Links de los ítems de la lista*/
  ul li a{
     color:white;
@@ -83,17 +73,10 @@ nav ul li{
 /*Título slice de los los productos*/
 section#tituloProductos {
     display: flex;
-    justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     color:yellow;
-    font-weight: bold;    
-}
-
-section#tituloproductos div {
-width: 30px;
-
-
+    font-weight: bold;
 }
 
 /*Titulo h1 de los productos*/
@@ -214,4 +197,28 @@ div#datos{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+/*Div Contenedor de los elementos Slice*/
+div#contenedorSlice{
+    display:flex;
+    align-items: center;
+}
+
+/*Div de imagenes activadas del Slice*/
+img.activada{
+    display:block;
+}
+
+/*Div de imagenes desacativada del Slice*/
+img.desactivada{
+    display:none;
+}
+
+/*Tamaño de imagenes del Slice*/
+img.imgSlice{
+    width: 1000px;
+    height: 350px;
+    margin: 50px;
+    box-shadow: 0px 0px 30px yellow;
 }
