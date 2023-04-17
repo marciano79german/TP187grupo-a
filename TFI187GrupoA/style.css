@@ -45,7 +45,7 @@ header h1{
 nav{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 /*Alineación, márgenes, color de fuente y espacio entre elementos de la lista desordenada*/
