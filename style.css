@@ -54,7 +54,7 @@ nav ul{
     color: white;
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 17px;
     justify-content: space-between;
     gap: 35px;
 }
