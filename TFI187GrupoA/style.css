@@ -181,7 +181,9 @@ section#quienes p {
 }
 /* color de contactos del "quienes somos"*/
 div#contacto {
+    margin-left: 15px;
     color:white
+    
 }
 /* ubicacion de los datos en la pagina*/
 div#datos{
