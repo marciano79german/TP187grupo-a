@@ -198,3 +198,27 @@ div#datos{
     justify-content: space-around;
     align-items: center;
 }
+
+/*Div Contenedor de los elementos Slice*/
+div#contenedorSlice{
+    display:flex;
+    align-items: center;
+}
+
+/*Div de imagenes activadas del Slice*/
+img.activada{
+    display:block;
+}
+
+/*Div de imagenes desacativada del Slice*/
+img.desactivada{
+    display:none;
+}
+
+/*Tamaño de imagenes del Slice*/
+img.imgSlice{
+    width: 1000px;
+    height: 350px;
+    margin: 50px;
+    box-shadow: 0px 0px 30px yellow;
+}
